@@ -1,0 +1,33 @@
+{
+  "name": "firebase-rules-la",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.10",
+    "firebase": "^10.8.0",
+    "vue-router": "^4.3.0",
+    "monaco-editor": "^0.47.0",
+    "@monaco-editor/loader": "^1.4.0",
+    "@vueuse/core": "^10.9.0",
+    "lucide-vue-next": "^0.344.0",
+    "@headlessui/vue": "^1.7.19"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.8",
+    "vue-tsc": "^2.1.6",
+    "@types/node": "^20.11.24",
+    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "@tailwindcss/typography": "^0.5.10"
+  },
+  "packageManager": "pnpm@9.15.3+sha512.1f79bc245a66eb0b07c5d4d83131240774642caaa86ef7d0434ab47c0d16f66b04e21e0c086eb61e62c77efc4d7f7ec071afad3796af64892fae66509173893a"
+}

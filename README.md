@@ -1,8 +1,9 @@
 # Firebase Rules Learning Assistant
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e7ee416e-48f6-4cf8-b3e4-bb08dbc544ce/deploy-status)](https://app.netlify.com/sites/firebase-rules-learning-assistant/deploys)
-
 An interactive learning tool designed to help developers understand, learn, and experiment with Firebase Security Rules for Cloud Firestore. This educational platform provides real-time explanations, practical examples, and interactive testing to make learning Firestore security rules more accessible and intuitive.
+
+👉🏻 [Learning Assistant](https://firebase-rules-learning-assistant.netlify.app/)
+👉🏻 [Docs](https://firebase-rules-la-docs.netlify.app/)
 
 ## Features
 
@@ -85,36 +86,9 @@ The application includes an educational tour that guides you through learning Fi
 - Web Crypto API for encryption
 - Firebase SDK for authentication and testing
 
-## Development
-
-This project uses [pnpm](https://pnpm.io/) as its package manager. Make sure you have it installed before proceeding.
-
-```bash
-# Install pnpm if you haven't already
-npm install -g pnpm
-
-# Install dependencies
-pnpm install
-
-# Start development server
-pnpm dev
-
-# Build for production
-pnpm build
-
-# Preview production build
-pnpm preview
-```
-
 ## Contributing
 
 Please read our [Contributing Guidelines](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md) before contributing to this project.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## License
 
